@@ -1,0 +1,28 @@
+[
+    {
+      "id":1,
+      "question": "Explain the role of banks in the early 19th century in U.S. financial development.",
+      "Answer": "Banks played a crucial role in managing the increasing savings of individuals, preventing fraud, and lending money to foster economic growth. They helped stabilize the economy by providing secure places to store money and offering loans that enabled businesses and individuals to invest and expand."
+    },
+    {
+      "id":2,
+      "question": "Describe the concept of peer-to-peer lending and how it differs from traditional banking.",
+      "Answer": "Peer-to-peer lending allows individuals to lend money directly to other individuals through online platforms, bypassing traditional banks. This approach offers lower interest rates for borrowers and higher returns for lenders compared to traditional banking, as it eliminates the bank's role as an intermediary."
+    },
+    {
+      "id":43,
+      "question": "What are the risks associated with prolonged low interest rates and how can they impact the economy?",
+      "Answer": "Prolonged low interest rates can lead to excessive borrowing, causing bubbles in real estate or stock markets. They can also encourage financial speculation, which may increase the risk of market instability. Moreover, low rates can limit the effectiveness of monetary policy in stimulating economic growth and may lead to stagnation."
+    },
+    {
+      "id":44,
+      "question": "Explain how Warren Buffett’s investment strategy helped him avoid the financial pitfalls faced by others.",
+      "Answer": "Warren Buffett’s strategy focuses on long-term investments in businesses with strong fundamentals and stable earnings. He avoids speculative ventures and prioritizes companies with a competitive advantage, solid management, and predictable cash flows. This cautious approach has helped him minimize risk and achieve sustained financial growth."
+    },
+    {
+      "id":45,
+      "question": "What were the causes and consequences of the 2008 subprime mortgage crisis?",
+      "Answer": "The 2008 subprime mortgage crisis was caused by reckless lending practices, where banks provided high-risk loans to borrowers who were unlikely to repay. When housing prices fell, many borrowers defaulted, leading to widespread foreclosures. This resulted in the collapse of major financial institutions, a global recession, and a severe economic downturn."
+    }
+  ]
+  

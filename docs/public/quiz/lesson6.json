@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What problem did the islanders face as their savings increased?",
+      "options": [
+        "A. Lack of storage space",
+        "B. Too much food",
+        "C. Excessive borrowing",
+        "D. High inflation"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "How did banks contribute to the financial system in the early 19th century in the U.S.?",
+      "options": [
+        "A. Increased taxes",
+        "B. Prevented fraud and secured savings",
+        "C. Reduced interest rates",
+        "D. Increased government spending"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "What was the role of Max Goodbank in solving the island's financial issues?",
+      "options": [
+        "A. To provide loans to everyone",
+        "B. To create a centralized institution for storage and lending",
+        "C. To increase the interest rates for borrowers",
+        "D. To manage government debt"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of peer-to-peer lending?",
+      "options": [
+        "A. Bank of England",
+        "B. LendingClub",
+        "C. Bank of Japan",
+        "D. Federal Reserve"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "What happened in the 2000s that contributed to the housing boom?",
+      "options": [
+        "A. High interest rates",
+        "B. Low interest rates",
+        "C. High government spending",
+        "D. Strict banking regulations"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "What is a major issue with prolonged low interest rates?",
+      "options": [
+        "A. Promotes economic growth",
+        "B. Encourages financial speculation",
+        "C. Increases inflation",
+        "D. Increases government savings"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "How did Warren Buffett approach investment to minimize risk?",
+      "options": [
+        "A. Focused on speculative ventures",
+        "B. Invested in businesses with stable earnings",
+        "C. Ignored market trends",
+        "D. Focused on short-term gains"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "What is the outcome of reckless lending practices, as seen in the 2008 subprime mortgage crisis?",
+      "options": [
+        "A. Stable economic growth",
+        "B. Financial stability",
+        "C. Economic collapse and instability",
+        "D. Higher tax revenues"
+      ],
+      "Answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "What role does the Federal Reserve play in U.S. economic policy?",
+      "options": [
+        "A. Sets tax rates",
+        "B. Adjusts interest rates to influence borrowing and lending",
+        "C. Creates national savings programs",
+        "D. Funds infrastructure projects"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "What happened when China controlled credit markets?",
+      "options": [
+        "A. High inflation",
+        "B. Imbalanced economic growth in certain sectors",
+        "C. Increased foreign investment",
+        "D. Decreased government debt"
+      ],
+      "Answer": "B"
+    }
+  ]
+  

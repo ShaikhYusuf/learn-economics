@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "Able fears losing his net, which discourages him from sharing it initially.",
+      "answer": "True"
+    },
+    {
+      "id": 2,
+      "question": "Lending surplus fish does not benefit Baker and Charlie in the long term.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "The chapter argues that wealth accumulation inherently harms others.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "Productivity increases are essential for economic growth.",
+      "answer": "True"
+    },
+    {
+      "id": 5,
+      "question": "Redistribution without accountability may hinder progress.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "Hoarded resources in a capitalist system gain value over time.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "Microloans often empower small-scale farmers to improve their yield.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "question": "Able invests in additional nets to avoid sharing his wealth.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "question": "Coercive systems like slavery increase overall economic productivity.",
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "question": "Modern tech entrepreneurs contribute to economic growth by creating tools that boost productivity.",
+      "answer": "True"
+    }
+  ]

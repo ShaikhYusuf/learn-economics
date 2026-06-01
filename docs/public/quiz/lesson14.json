@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What is the primary function of government-sponsored enterprises like Finnie Mae and Fishy Mac?",
+      "options": [
+        "A. To guarantee hut loans",
+        "B. To regulate interest rates on loans",
+        "C. To provide subsidies for foreign imports",
+        "D. To control housing prices"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Which real-life example is directly related to Finnie Mae and Fishy Mac's role in backing loans?",
+      "options": [
+        "A. Bank of America",
+        "B. Fannie Mae and Freddie Mac",
+        "C. Lehman Brothers",
+        "D. Goldman Sachs"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "What kind of loans contributed to the housing bubble in the U.S. before 2008?",
+      "options": [
+        "A. High-interest loans",
+        "B. Subprime mortgages",
+        "C. Government bonds",
+        "D. Commercial loans"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "What was the main cause of the 'hut glut' in the island’s economy?",
+      "options": [
+        "A. Over-speculation in huts",
+        "B. Decline in tourism",
+        "C. High tax rates",
+        "D. Loss of natural resources"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Which of the following financial products was created to profit from the housing market's rise?",
+      "options": [
+        "A. Mortgage-backed securities",
+        "B. Gold futures",
+        "C. Savings bonds",
+        "D. Treasury bills"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "How did tax policies affect the housing market in the U.S. during the housing bubble?",
+      "options": [
+        "A. By encouraging homeownership through tax deductions",
+        "B. By imposing higher taxes on property owners",
+        "C. By restricting home loan availability",
+        "D. By subsidizing rent payments"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Which event triggered the 2008 financial crisis in the U.S.?",
+      "options": [
+        "A. The collapse of the stock market",
+        "B. The bursting of the housing bubble",
+        "C. A global trade war",
+        "D. A major banking merger"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following contributed to the speculative behavior in the U.S. housing market?",
+      "options": [
+        "A. Decline in home prices",
+        "B. Tax incentives for homeowners",
+        "C. High interest rates",
+        "D. Federal reserve interest rate hikes"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Which major financial institution's collapse was directly tied to mortgage-backed securities?",
+      "options": [
+        "A. Bear Stearns",
+        "B. Enron",
+        "C. Lehman Brothers",
+        "D. Goldman Sachs"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "What was the impact of the housing market collapse on the global economy?",
+      "options": [
+        "A. Immediate global recession",
+        "B. Hyperinflation in several countries",
+        "C. Global economic expansion",
+        "D. Unemployment spike in the U.S. alone"
+      ],
+      "Answer": "A"
+    }
+  ]
+

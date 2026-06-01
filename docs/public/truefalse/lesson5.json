@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Economic growth is primarily driven by consumption and spending.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "Collaboration between businesses reduces innovation.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "Savings are a critical foundation for economic growth.",
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "Over-reliance on borrowing can destabilize an economy.",
+      "answer": "True"
+    },
+    {
+      "id": 5,
+      "question": "Japan’s recovery after the 2011 earthquake was hindered by a lack of savings.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "question": "High savings rates fuel industrial development and resilience.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "The U.S. economic boom post-WWII was fueled by excessive borrowing.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "Production, not spending, creates real economic value.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "Excessive consumption without savings can create long-term financial instability.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "Joint ventures between businesses can reduce risk and encourage innovation.",
+      "answer": "True"
+    }
+  ]
+  

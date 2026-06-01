@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "The U.S. housing crisis was caused by responsible lending practices.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "The 2008 financial crisis was marked by government bailouts of failing banks.",
+      "answer": "True"
+    },
+    {
+      "id": 3,
+      "question": "The 'Hut Glut' refers to a situation where the market has too few properties to meet demand.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The government’s intervention during the 2008 financial crisis prevented inflation from rising.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "Speculation in the housing market helped lead to the 2007-2008 crash.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "The Japanese asset price bubble led to a period known as the 'Lost Decade.'",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "During the housing boom, homeowners borrowed against the rising value of their properties.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "question": "Stimulus measures in 2008 were successful in addressing the root causes of the economic downturn.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "question": "Government intervention in the form of bailouts has no long-term economic consequences.",
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "question": "In Chapter 15, the government's bailout efforts successfully stabilized the economy.",
+      "answer": "False"
+    }
+  ]
+

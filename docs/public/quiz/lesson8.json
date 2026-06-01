@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "question": "What was the primary reason for the formation of a central government on the island?",
+      "options": [
+        "a. To ensure economic stability",
+        "b. To resolve disputes and prevent external threats",
+        "c. To establish a formal tax system",
+        "d. To promote trade"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 2,
+      "question": "What system of government did the islanders establish?",
+      "options": [
+        "a. Monarchy",
+        "b. Republic",
+        "c. Democracy",
+        "d. Dictatorship"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "How many senators were elected to form the Senate in the new republic?",
+      "options": [
+        "a. 10",
+        "b. 12",
+        "c. 15",
+        "d. 20"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 4,
+      "question": "What power did the senator-in-chief hold?",
+      "options": [
+        "a. Legislative power",
+        "b. Executive power",
+        "c. Judicial power",
+        "d. Military power"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What was the primary source of revenue for the island’s government?",
+      "options": [
+        "a. Trade taxes",
+        "b. Fish tax",
+        "c. Agricultural tax",
+        "d. Luxury goods tax"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 6,
+      "question": "Which of the following was one of the new government’s responsibilities?",
+      "options": [
+        "a. Overseeing private businesses",
+        "b. Defending the island from external threats",
+        "c. Managing islanders' private savings",
+        "d. Regulating personal freedoms"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 7,
+      "question": "What role did the constitution play in the formation of the island’s government?",
+      "options": [
+        "a. It gave the government total control over all decisions",
+        "b. It limited the government’s power and protected individual rights",
+        "c. It created a monarchy with absolute power",
+        "d. It allowed the citizens to vote on all decisions"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 8,
+      "question": "Why did the islanders create a constitution with checks and balances?",
+      "options": [
+        "a. To ensure the government would operate more efficiently",
+        "b. To prevent corruption and ensure government accountability",
+        "c. To give all power to the citizens",
+        "d. To centralize all power in one ruler"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 9,
+      "question": "Which real-life example is similar to the formation of the Republic of Usonia?",
+      "options": [
+        "a. The founding of the Roman Empire",
+        "b. The establishment of the United States",
+        "c. The formation of the European Union",
+        "d. The rise of authoritarian regimes"
+      ],
+      "Answer": "b"
+    },
+    {
+      "id": 10,
+      "question": "What was the impact of taxes on private investment in Usonia?",
+      "options": [
+        "a. Taxes increased private investment",
+        "b. Taxes reduced the capital available for private investment",
+        "c. Taxes were not important for private investment",
+        "d. Taxes eliminated all private investment"
+      ],
+      "Answer": "b"
+    }
+  ]
+  

@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Savings enable economic growth by providing capital for investments in productive ventures.",
+      "answer": "True"
+    },
+    {
+      "id": 2,
+      "question": "Collaboration in business ventures leads to less innovation.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "Excessive consumer borrowing without saving can lead to economic crises.",
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "The core of economic value is spending money on consumption.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "Countries that prioritize savings often achieve higher economic resilience.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "High levels of debt lead to sustained economic growth in the long run.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "Government interventions can lead to long-term economic growth without addressing underlying issues.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "Microloans in developing countries have proven effective in improving local economies.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "Hoarding resources in a capitalist system results in increased productivity and economic growth.",
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "question": "Collaboration in economic activities leads to better resource allocation and risk-sharing.",
+      "answer": "True"
+    }
+  ]
+

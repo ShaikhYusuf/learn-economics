@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary role of savings in driving economic growth?",
+    "options": [
+      "A. To fund luxury consumption",
+      "B. To enable investments in capital equipment and innovation",
+      "C. To support government spending",
+      "D. To increase consumption"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "What was a key factor in enabling the Industrial Revolution?",
+    "options": [
+      "A. Government loans",
+      "B. Accumulated savings funding technological development",
+      "C. Consumption loans for industrial expansion",
+      "D. Over-leveraging by corporations"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "What example in the chapter illustrates the importance of collaboration in economic expansion?",
+    "options": [
+      "A. A farmer investing in a tractor",
+      "B. NASA and SpaceX pooling resources for space exploration",
+      "C. A tech startup relying on savings for innovation",
+      "D. A family using credit cards for consumption"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "What is the lesson from the example of Japan’s recovery after the 2011 earthquake and tsunami?",
+    "options": [
+      "A. High government debt leads to faster recovery.",
+      "B. A strong savings culture enables rapid recovery.",
+      "C. Government intervention is unnecessary in recovery.",
+      "D. Natural disasters hinder long-term economic growth."
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "What is a consequence of policies prioritizing spending over saving?",
+    "options": [
+      "A. Long-term economic growth",
+      "B. Sustainable development",
+      "C. Economic instability due to consumption without production",
+      "D. Increased savings rates"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following represents the core of economic value according to the chapter?",
+    "options": [
+      "A. Spending",
+      "B. Consumption",
+      "C. Production",
+      "D. Government subsidies"
+    ],
+    "Answer": "C"
+  }
+]

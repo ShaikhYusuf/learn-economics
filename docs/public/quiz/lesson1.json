@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does each fish represent in the primitive economy of Able, Baker, and Charlie?",
+    "options": [
+      "A. A luxury item",
+      "B. A day's worth of food",
+      "C. A tool for survival",
+      "D. An investment opportunity"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Why don’t Able, Baker, and Charlie innovate initially?",
+    "options": [
+      "A. They lack intelligence.",
+      "B. They fear predators.",
+      "C. Survival consumes all their time.",
+      "D. They already have surplus resources."
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "What inspires Able to create the fishing net?",
+    "options": [
+      "A. Hunger",
+      "B. A dream of better living",
+      "C. Advice from Baker",
+      "D. A technological manual"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "How does Able’s fishing net improve productivity?",
+    "options": [
+      "A. It catches bigger fish.",
+      "B. It doubles the daily fish catch.",
+      "C. It reduces the need for fishing altogether.",
+      "D. It helps Baker and Charlie as well."
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "What economic principle does Able’s decision to skip fishing for a day illustrate?",
+    "options": [
+      "A. Overconsumption",
+      "B. Underconsumption",
+      "C. Risk aversion",
+      "D. Immediate gratification"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "What is a key characteristic of capital in this chapter?",
+    "options": [
+      "A. It has inherent value.",
+      "B. It directly replaces labor.",
+      "C. It increases productivity.",
+      "D. It requires no effort to create."
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "What is the first form of capital on the island?",
+    "options": [
+      "A. A spear",
+      "B. A fishing net",
+      "C. A shelter",
+      "D. A boat"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "What happens when Able catches surplus fish?",
+    "options": [
+      "A. He eats more than before.",
+      "B. He trades with Baker and Charlie.",
+      "C. He gains free time for other activities.",
+      "D. He abandons fishing entirely."
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "Which revolution is cited as an example of tools driving economic progress?",
+    "options": [
+      "A. The Green Revolution",
+      "B. The Agricultural Revolution",
+      "C. The Information Revolution",
+      "D. The Digital Revolution"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "What would happen if all tools disappeared, according to Thomas Woods?",
+    "options": [
+      "A. Humans would innovate again quickly.",
+      "B. Humanity would revert to basic survival.",
+      "C. Economies would continue to grow.",
+      "D. Technology would be unnecessary."
+    ],
+    "Answer": "B"
+  }
+]

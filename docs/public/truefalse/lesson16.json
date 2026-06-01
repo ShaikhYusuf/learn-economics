@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "Ocuda’s economic reforms were successful in addressing the long-term issues in Usonia’s economy.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "The Usonian government’s reliance on foreign debt is a sustainable economic strategy.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "The 'Carp for Carts' program incentivizes the replacement of old, inefficient carts with newer, fuel-efficient ones.",
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "Sinopia is Usonia’s largest foreign creditor, providing loans and purchasing Fish Reserve Notes.",
+      "answer": "True"
+    },
+    {
+      "id": 5,
+      "question": "The peasant's advice to the Sinopian king was to focus on domestic trade and stop buying Fish Reserve Notes.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "Ocuda’s reforms include increasing government subsidies for hut buyers and lowering loan interest rates.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "Usonia’s economy recovered quickly thanks to the new infrastructure projects and subsidies.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "Sinopia’s king continues to buy Fish Reserve Notes to support Usonia’s economy despite the risk of devaluation.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "question": "The Usonian economy relies on domestic production, and the government only borrows for emergency measures.",
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "question": "The chapter suggests that excessive government intervention and borrowing can lead to long-term economic instability.",
+      "answer": "True"
+    }
+  ]

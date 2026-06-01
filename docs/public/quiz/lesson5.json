@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main benefit of saving in an economy?",
+    "options": [
+      "A. Increased luxury consumption",
+      "B. Funding for productive investments",
+      "C. Reduction in taxes",
+      "D. Boost to consumer debt"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "What is one of the primary outcomes of excessive borrowing?",
+    "options": [
+      "A. Economic prosperity",
+      "B. Economic instability",
+      "C. Rapid industrial growth",
+      "D. Higher savings rates"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "What key concept is emphasized in the chapter for driving economic growth?",
+    "options": [
+      "A. Excessive spending",
+      "B. Collaboration",
+      "C. Investment in government bonds",
+      "D. Speculative trading"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Which country’s recovery from natural disaster is highlighted as an example in the chapter?",
+    "options": [
+      "A. United States",
+      "B. Japan",
+      "C. Germany",
+      "D. China"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "How does savings contribute to economic resilience?",
+    "options": [
+      "A. By funding the stock market",
+      "B. By providing a buffer during financial crises",
+      "C. By enabling speculative investments",
+      "D. By promoting government spending"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "Which factor led to the U.S. post-WWII economic boom?",
+    "options": [
+      "A. High debt levels",
+      "B. Government subsidies",
+      "C. High savings rates",
+      "D. Large tax cuts"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "What is the consequence of policies that ignore savings?",
+    "options": [
+      "A. Stronger economic growth",
+      "B. Financial vulnerabilities",
+      "C. Increased production",
+      "D. Economic stability"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "What is considered the 'core' of economic value in the chapter?",
+    "options": [
+      "A. Government spending",
+      "B. Consumption",
+      "C. Production",
+      "D. Debt management"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a necessary condition for long-term economic growth?",
+    "options": [
+      "A. Focus on immediate consumer spending",
+      "B. High savings rates",
+      "C. High government debt",
+      "D. Low production rates"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 10,
+    "question": "What was a factor in Japan's rapid recovery after the 2011 disaster?",
+    "options": [
+      "A. Government intervention",
+      "B. Strong savings culture",
+      "C. Corporate debt relief",
+      "D. Foreign loans"
+    ],
+    "Answer": "B"
+  }
+]

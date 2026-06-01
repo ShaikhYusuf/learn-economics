@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary benefit of business loans in an economy?",
+    "options": [
+      "A. Increasing luxury consumption",
+      "B. Expanding production and creating wealth",
+      "C. Paying off government debt",
+      "D. Enhancing personal comfort"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "What is a risk of poorly allocated business loans?",
+    "options": [
+      "A. It can waste society’s accumulated savings.",
+      "B. It always results in economic growth.",
+      "C. It guarantees success.",
+      "D. It fosters innovation."
+    ],
+    "Answer": "A"
+  },
+  {
+    "id": 3,
+    "question": "What is an example of a failed business loan in the chapter?",
+    "options": [
+      "A. A farmer borrowing money for irrigation systems.",
+      "B. A tech entrepreneur lacking expertise and failing to create a successful app.",
+      "C. A government loan for infrastructure.",
+      "D. A loan to buy farming equipment."
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "How do consumption loans typically affect borrowers?",
+    "options": [
+      "A. They enhance long-term productive capacity.",
+      "B. They lead to temporary gratification but financial strain.",
+      "C. They help borrowers generate income.",
+      "D. They increase saving and investment."
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Which type of loan is vital for ensuring survival in emergencies?",
+    "options": [
+      "A. Business loans",
+      "B. Consumption loans",
+      "C. Emergency loans",
+      "D. Housing loans"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "What real-life example shows how emergency loans sustain business continuity?",
+    "options": [
+      "A. Borrowing to expand a farm",
+      "B. A business owner borrowing to cover payroll during a downturn",
+      "C. A government loan for infrastructure",
+      "D. A loan for a luxury vacation"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "How does government influence the allocation of credit?",
+    "options": [
+      "A. By encouraging private lenders to make decisions",
+      "B. By investing only in high-return projects",
+      "C. By subsidizing politically motivated sectors",
+      "D. By focusing on economic viability"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "What was one of the consequences of government policies encouraging risky home loans in the U.S.?",
+    "options": [
+      "A. Increased homeownership for low-income individuals",
+      "B. The 2008 financial crisis",
+      "C. Economic prosperity",
+      "D. Increased savings among citizens"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "What is a key argument against government-driven lending?",
+    "options": [
+      "A. It prioritizes financial viability over political goals.",
+      "B. It leads to more efficient resource allocation.",
+      "C. It often leads to inefficiencies and wasted resources.",
+      "D. It guarantees economic growth."
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "What forms the foundation of sustainable credit creation?",
+    "options": [
+      "A. Excessive borrowing",
+      "B. Accumulated savings",
+      "C. Government incentives",
+      "D. Expanding credit lines"
+    ],
+    "Answer": "B"
+  }
+]

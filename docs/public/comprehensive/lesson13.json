@@ -1,0 +1,53 @@
+[
+    {
+      "id":1,
+      "question": "Describe the significance of the U.S. departure from the gold standard and its impact on the global economy.",
+      "Answer": "In 1971, the U.S. abandoned the gold standard, which had previously ensured that U.S. currency was backed by gold reserves. This shift to fiat currency marked the beginning of an era where money's value is derived solely from government trust rather than tangible assets. While this move helped stabilize the U.S. economy in the short term, it also led to inflation and economic instability globally, as other nations had to adapt to the changing nature of currency."
+    },
+    {
+      "id":2,
+      "question": "How did hyperinflation in Zimbabwe in the early 2000s illustrate the dangers of an unsupported currency?",
+      "Answer": "In Zimbabwe, the government printed excessive amounts of money to cover budget deficits, leading to hyperinflation. The value of the Zimbabwean dollar collapsed, and people lost faith in the currency. Prices spiraled out of control, with everyday goods costing millions of dollars. This scenario highlights the risks of relying on currency without tangible backing, similar to the devaluation of Fish Reserve Notes in Usonia."
+    },
+    {
+      "id":3,
+      "question": "Explain the parallels between the Eurozone crisis and Usonia’s currency struggles in Chapter 13.",
+      "Answer": "Both the Eurozone crisis and Usonia’s struggles with the Fish Reserve Notes were triggered by weaknesses in their respective currency systems. In the Eurozone, countries like Greece faced debt crises, and the lack of a unified fiscal policy led to devaluation concerns. Similarly, Usonia’s detachment from the Fish Standard caused a loss of confidence in its currency. In both cases, intervention from a central authority (the European Central Bank and Usonia’s Senate) was necessary to prevent further collapse."
+    },
+    {
+      "id":4,
+      "question": "Discuss the role of political corruption in exacerbating economic crises, using Slippery Dickson’s scandal as an example.",
+      "Answer": "Slippery Dickson’s involvement in the Watersnake Scandal represents how political corruption can undermine economic stability. Corruption erodes public trust in the government’s ability to manage economic affairs responsibly. This loss of confidence can accelerate a currency crisis, as seen in Usonia, where the value of Fish Reserve Notes plummeted following scandals and mismanagement. A similar pattern was observed in real-world crises like the Enron scandal and the 2008 financial crisis."
+    },
+    {
+      "id":5,
+      "question": "How did the failure of Roughy Redfish’s fiscal policies lead to economic instability in Usonia?",
+      "Answer": "Roughy Redfish implemented tax cuts to stimulate growth but failed to reduce government spending, which led to a growing deficit and unsustainable fiscal practices. This imbalance between tax revenue and spending mirrors real-world economic challenges, such as the U.S. experience in the 1980s. The resulting economic instability made Usonia more vulnerable to external shocks, highlighting the importance of balanced fiscal policies."
+    },
+    {
+      "id": 6,
+      "question": "How did the abandonment of the gold standard in 1971 affect international trade and exchange rates?",
+      "Answer": "The abandonment of the gold standard by the U.S. in 1971 led to a shift to a system of floating exchange rates, where the value of currencies is determined by supply and demand in the market. This change made international trade more volatile as exchange rates fluctuated, and countries had to adapt to the risks of currency devaluation. The U.S. dollar's status as the world's primary reserve currency was maintained, but it also led to global inflationary pressures as the U.S. relied more heavily on printing money to finance its deficits."
+    },
+    {
+      "id": 7,
+      "question": "What lessons can be learned from the economic collapse caused by hyperinflation in Zimbabwe?",
+      "Answer": "The Zimbabwean hyperinflation crisis illustrates the dangers of irresponsible monetary policies, such as excessive money printing without a corresponding increase in economic output. This scenario highlights the importance of fiscal discipline, the risks of over-relying on fiat currencies without proper backing, and the need for transparent economic governance to maintain currency stability and public trust in the financial system."
+    },
+    {
+      "id": 8,
+      "question": "How did the lack of fiscal unity within the Eurozone contribute to the crisis in Greece?",
+      "Answer": "The lack of fiscal unity within the Eurozone, where countries like Greece were unable to independently manage their budgets while still using a shared currency, contributed to the Greek debt crisis. Without the ability to devalue their currency or adjust interest rates, Greece faced unsustainable debt levels and economic contraction. The crisis revealed the vulnerability of a currency union without strong fiscal coordination among its members."
+    },
+    {
+      "id": 9,
+      "question": "What role did Slippery Dickson’s scandal play in undermining the public's confidence in Usonia's economy?",
+      "Answer": "Slippery Dickson’s scandal, tied to financial mismanagement and corruption, severely damaged public trust in the government’s ability to manage the economy. The scandal undermined the credibility of the political leadership, causing both domestic and international investors to lose confidence in the stability of Usonia’s currency and financial system. This lack of trust precipitated a broader economic crisis, where the value of Fish Reserve Notes collapsed, further exacerbating Usonia’s economic woes."
+    },
+    {
+      "id": 10,
+      "question": "In what ways did Roughy Redfish's tax cuts contribute to Usonia’s economic problems?",
+      "Answer": "Roughy Redfish's tax cuts, aimed at stimulating economic growth, resulted in decreased government revenue without a corresponding reduction in government spending. This imbalance led to increased borrowing, higher deficits, and inflationary pressures. The failure to rein in spending while cutting taxes destabilized Usonia’s economy, making it more susceptible to fiscal crises and inflation, mirroring the budgetary challenges faced by other economies when fiscal discipline is not maintained."
+    }
+  ]
+  

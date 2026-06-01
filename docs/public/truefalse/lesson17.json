@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "The collapse of the Fish Reserve Notes in Sinopia was caused by excessive currency printing and poor fiscal management.",
+      "answer": "True"
+    },
+    {
+      "id": 2,
+      "question": "Hyperinflation in Zimbabwe reached a peak of 89.7 sextillion percent in 2008.",
+      "answer": "True"
+    },
+    {
+      "id": 3,
+      "question": "Argentina experienced deflation in the 1980s due to strict monetary policies.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The U.S. government’s response to stagflation in the 1970s involved cutting government spending significantly.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "Venezuela’s capital flight in the 2010s was primarily due to political instability rather than economic mismanagement.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "question": "The Great Depression of the 1930s was caused by the collapse of the banking system and a stock market crash.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "Japan’s economic recovery after WWII was primarily driven by high government spending and debt.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "The privatization process in Russia during the 1990s led to widespread corruption and asset stripping.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "Argentina’s inflation rate reached 3,000% annually in the 1980s.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "South Korea’s economic development was largely driven by its focus on military spending and heavy industrialization.",
+      "answer": "False"
+    }
+  ]

@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "The government’s decision to issue Fish Reserve Notes led to balanced economic growth.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "The Clean Rocks Jobs Program was successful in improving the economy.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "Fishflation is caused by a decrease in the money supply.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The creation of the Manny Fund reflected a thriving economy.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "The government responded to fishflation by increasing the money supply.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "The collapse of the Fish Reserve Notes in Usonia was triggered by over-issuing currency.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "Government interventions always lead to sustainable economic growth.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "Excessive borrowing without savings can destabilize an economy in the long term.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "Subprime mortgages were a key factor in causing the 2008 financial crisis.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "Speculative behavior in markets typically leads to stable and predictable economic conditions.",
+      "answer": "False"
+    }
+  ]

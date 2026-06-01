@@ -1,0 +1,114 @@
+{
+  "MCQs": [
+    {
+      "id": 1,
+      "question": "What event is compared to the Crater View Condominiums' collapse in Chapter 15?",
+      "options": [
+        "A. The Japanese Asset Price Bubble",
+        "B. The U.S. Housing Crisis (2007-2008)",
+        "C. The Great Depression",
+        "D. The Dot-com Bubble"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "What was the key factor that led to the collapse of the U.S. housing market in 2007-2008?",
+      "options": [
+        "A. Excessive credit and risky subprime mortgages",
+        "B. High consumer demand for real estate",
+        "C. Overregulation by the government",
+        "D. Global financial crash"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Which term refers to the market condition where owners rush to sell properties before prices decline?",
+      "options": [
+        "A. Housing slump",
+        "B. Hut rut",
+        "C. Asset inflation",
+        "D. Subprime market"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "What government intervention closely parallels the bailout described in Chapter 15?",
+      "options": [
+        "A. The U.S. Bailout of the Auto Industry (2009)",
+        "B. The Troubled Asset Relief Program (TARP) of 2008",
+        "C. The U.S. Housing Stimulus Act",
+        "D. The Federal Reserve's Quantitative Easing Program"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "What was the consequence of the government intervention in the book?",
+      "options": [
+        "A. Immediate market stabilization",
+        "B. Devaluation of Fish Reserve Notes (inflation)",
+        "C. Rapid economic recovery",
+        "D. Reduced government debt"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "Which financial event is compared to the Japanese asset price bubble in the 1980s?",
+      "options": [
+        "A. The 2007-2008 housing crisis",
+        "B. The financial bailout of 2008",
+        "C. The attempts to prevent hut prices from falling",
+        "D. The 1997 Asian Financial Crisis"
+      ],
+      "Answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Which factor was seen as a temporary solution during the 2008 financial crisis, according to the chapter?",
+      "options": [
+        "A. Government stimulus checks",
+        "B. Raising interest rates",
+        "C. Reduction in housing supply",
+        "D. Increasing taxes on the wealthy"
+      ],
+      "Answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "What resulted from the false sense of wealth during the housing boom?",
+      "options": [
+        "A. Economic growth and prosperity",
+        "B. A rise in consumer spending and investment",
+        "C. Increased borrowing against home equity",
+        "D. Immediate resolution of the housing crisis"
+      ],
+      "Answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "What was the core issue addressed by the government bailout in Chapter 15?",
+      "options": [
+        "A. Unemployment and inflation",
+        "B. Bank and financial institution instability",
+        "C. Global trade imbalance",
+        "D. Rising consumer prices"
+      ],
+      "Answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "What lesson does Chapter 15 emphasize regarding government intervention in the economy?",
+      "options": [
+        "A. It should be immediate and sustained",
+        "B. It can resolve deep systemic issues",
+        "C. It only temporarily eases economic pain",
+        "D. It prevents asset price deflation"
+      ],
+      "Answer": "C"
+    }
+  ]
+}

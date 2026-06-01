@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Why is Able initially hesitant to share his fishing net?",
+    "options": [
+      "A. He doesn’t trust Baker and Charlie.",
+      "B. He fears losing or damaging the net.",
+      "C. He has no surplus fish.",
+      "D. He doesn’t believe in collaboration."
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "What incentive convinces Able to lend surplus fish to Baker and Charlie?",
+    "options": [
+      "A. A promise of gratitude",
+      "B. A gift of tools",
+      "C. A 100% interest rate",
+      "D. A guarantee of net repair"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "Which economic principle is demonstrated when Able lends his surplus fish?",
+    "options": [
+      "A. Redistribution of wealth",
+      "B. The creation of credit",
+      "C. Preservation of resources",
+      "D. Avoidance of risk"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "What happens to fish production on the island after Baker and Charlie create their own nets?",
+    "options": [
+      "A. It remains the same.",
+      "B. It decreases.",
+      "C. It doubles.",
+      "D. It triples."
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "What is one key use of savings according to the chapter?",
+    "options": [
+      "A. Preserving resources",
+      "B. Hoarding wealth",
+      "C. Ignoring risks",
+      "D. Avoiding lending"
+    ],
+    "Answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "What is the core principle behind economic growth in this chapter?",
+    "options": [
+      "A. Increasing productive capacity",
+      "B. Envy and redistribution",
+      "C. Avoiding savings",
+      "D. Hoarding wealth"
+    ],
+    "Answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "How does the chapter refute the idea that wealth accumulation harms others?",
+    "options": [
+      "A. By showing that surplus is redistributed fairly",
+      "B. By emphasizing that wealth increases total output",
+      "C. By explaining the need for coercive systems",
+      "D. By discouraging innovation"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "What is one potential downside of giving away surplus fish without repayment?",
+    "options": [
+      "A. Reduced productivity",
+      "B. Increased economic growth",
+      "C. Greater cooperation",
+      "D. Stronger trade relations"
+    ],
+    "Answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "What happens to unused savings in capitalism?",
+    "options": [
+      "A. They lose value over time.",
+      "B. They are redistributed by the government.",
+      "C. They remain stagnant indefinitely.",
+      "D. They are taxed heavily."
+    ],
+    "Answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "What modern example illustrates the benefits of small loans for economic growth?",
+    "options": [
+      "A. The Agricultural Revolution",
+      "B. Microfinance initiatives",
+      "C. The Digital Revolution",
+      "D. Space exploration programs"
+    ],
+    "Answer": "B"
+  }
+]

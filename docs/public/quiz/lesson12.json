@@ -1,0 +1,112 @@
+[
+    {
+      "id":1,
+      "question": "What sector became dominant in Usonia after its economic transformation?",
+      "options": [
+        "A. Manufacturing",
+        "B. Agriculture",
+        "C. Service",
+        "D. Technology"
+      ],
+      "answer": "C"
+    },
+    {
+      "id":2,
+      "question": "Which of the following is the primary driver of GDP growth in the U.S. economy in recent decades?",
+      "options": [
+        "A. Agriculture",
+        "B. Manufacturing",
+        "C. Service sector",
+        "D. Exports"
+      ],
+      "answer": "C"
+    },
+    {
+      "id":3,
+      "question": "Which Indian city is referred to as the 'Silicon Valley of India' due to its IT and BPO industries?",
+      "options": [
+        "A. Mumbai",
+        "B. Delhi",
+        "C. Bangalore",
+        "D. Chennai"
+      ],
+      "answer": "C"
+    },
+    {
+      "id":4,
+      "question": "What is a key characteristic of economies that focus on service-based industries?",
+      "options": [
+        "A. A focus on high-value services",
+        "B. Low wages for workers",
+        "C. Heavy reliance on manufacturing",
+        "D. A decline in trade"
+      ],
+      "answer": "A"
+    },
+    {
+      "id":5,
+      "question": "What economic strategy did China employ that mirrors Sinopia's rise in manufacturing?",
+      "options": [
+        "A. Focus on mass production and exports",
+        "B. Investment in agricultural industries",
+        "C. Outsourcing manufacturing to other countries",
+        "D. Decline in trade relationships"
+      ],
+      "answer": "A"
+    },
+    {
+      "id":6,
+      "question": "How has the U.S. dealt with its persistent trade deficit?",
+      "options": [
+        "A. By increasing exports",
+        "B. By reducing imports",
+        "C. By borrowing from foreign nations",
+        "D. By eliminating foreign trade"
+      ],
+      "answer": "C"
+    },
+    {
+      "id":7,
+      "question": "Which company serves as an example of a service-based business outsourcing physical production?",
+      "options": [
+        "A. General Motors",
+        "B. Nike",
+        "C. Ford",
+        "D. Walmart"
+      ],
+      "answer": "B"
+    },
+    {
+      "id":8,
+      "question": "What is the primary reason for the global imbalances between consumer-driven and manufacturing-driven economies?",
+      "options": [
+        "A. Trade surpluses",
+        "B. Differences in interest rates",
+        "C. Specialization and trade deficits",
+        "D. Excessive borrowing"
+      ],
+      "answer": "C"
+    },
+    {
+      "id":9,
+      "question": "How has Starbucks adapted to the global shift toward services?",
+      "options": [
+        "A. Focusing on global manufacturing of coffee beans",
+        "B. Outsourcing production and focusing on service",
+        "C. Reducing its global presence",
+        "D. Focusing on local coffee bean production"
+      ],
+      "answer": "B"
+    },
+    {
+      "id":10,
+      "question": "What risk does Sinopia face by accumulating Fish Reserve Notes in exchange for its goods?",
+      "options": [
+        "A. Rising interest rates",
+        "B. Financial instability if Usonia defaults",
+        "C. Decline in domestic consumption",
+        "D. Overreliance on manufacturing"
+      ],
+      "answer": "B"
+    }
+  ]

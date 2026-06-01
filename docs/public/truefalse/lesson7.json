@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Able Fisher V invented the system of reservoirs to collect rainwater.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "The TVA transformed the Tennessee River Valley by addressing flooding, soil erosion, and lack of electricity.",
+      "answer": "True"
+    },
+    {
+      "id": 3,
+      "question": "The island began exporting electronics after the economy grew.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The Tennessee Valley Authority was a government project created in the 1930s to boost agriculture and industry.",
+      "answer": "True"
+    },
+    {
+      "id": 5,
+      "question": "The U.S. steel tariffs led to lower prices for steel-based products like cars.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "question": "The 'Bridge to Nowhere' was a successful and cost-effective infrastructure project.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "In free trade agreements like NAFTA, countries eliminate tariffs and trade barriers between member nations.",
+      "answer": "True"
+    },
+    {
+      "id": 8,
+      "question": "Comparative advantage in trade means that countries should produce everything they need domestically.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "question": "The U.S. has a comparative advantage in technology, finance, and services.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "The economy of scale principle states that the cost per unit of production increases as production increases.",
+      "answer": "False"
+    }
+  ]
+  

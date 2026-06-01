@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "What problem did the islanders face before the Water Works project was implemented?",
+    "options": [
+      "A. Overpopulation",
+      "B. Lack of reliable water supply",
+      "C. Too much fish",
+      "D. Unemployment",
+      "E. Lack of education"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "How did Able Fisher V secure funds for the Water Works project?",
+    "options": [
+      "A. By borrowing from Manny Fund",
+      "B. By approaching Maxine Goodbank for a loan",
+      "C. By using his personal savings",
+      "D. By winning a government grant",
+      "E. By selling island resources"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "Which real-life project is most similar to the Water Works project on the island?",
+    "options": [
+      "A. Hoover Dam",
+      "B. Tennessee Valley Authority (TVA)",
+      "C. London Underground",
+      "D. Berlin Wall",
+      "E. Panama Canal"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Which goods did the island begin exporting after the economy grew?",
+    "options": [
+      "A. Fruits and vegetables",
+      "B. Fish, carts, surfboards, spears, and canoes",
+      "C. Grains and rice",
+      "D. Household items",
+      "E. Timber and logs"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Which country is a leader in electronics manufacturing, as mentioned in the lesson?",
+    "options": [
+      "A. United States",
+      "B. South Korea",
+      "C. Canada",
+      "D. Brazil",
+      "E. Japan"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 6,
+    "question": "What did the U.S. import from countries like Saudi Arabia, according to the real-life example?",
+    "options": [
+      "A. Electronics",
+      "B. Oil",
+      "C. Automobiles",
+      "D. Food",
+      "E. Textiles"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "What does \"economy of scale\" refer to?",
+    "options": [
+      "A. Decreasing efficiency as production increases",
+      "B. Increasing cost per unit as production rises",
+      "C. Decreasing cost per unit as production increases",
+      "D. Reducing the size of production units",
+      "E. Increasing production output"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is an example of a wasteful infrastructure project, as discussed in the lesson?",
+    "options": [
+      "A. New York City subways",
+      "B. Alaska’s 'Bridge to Nowhere'",
+      "C. Tennessee Valley Authority",
+      "D. UK’s privatized rail system",
+      "E. California High-Speed Rail"
+    ],
+    "Answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "What does a trade deficit indicate about a country's economy?",
+    "options": [
+      "A. It exports more than it imports",
+      "B. It has a balanced economy",
+      "C. It imports more than it exports",
+      "D. It has no foreign trade",
+      "E. It has strong economic growth"
+    ],
+    "Answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "What is the main principle behind comparative advantage in trade?",
+    "options": [
+      "A. Countries should produce everything domestically",
+      "B. Countries benefit from trading by specializing in what they do best",
+      "C. Trade is only beneficial for the larger economy",
+      "D. All goods should be traded equally",
+      "E. Countries should rely on imports for economic growth"
+    ],
+    "Answer": "B"
+  }
+]

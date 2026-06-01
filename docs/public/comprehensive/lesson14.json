@@ -1,0 +1,53 @@
+[
+    {
+      "id":1,
+      "question": "Explain the role of government-backed enterprises like Finnie Mae and Fishy Mac in the island's hut market.",
+      "Answer": "Finnie Mae and Fishy Mac were government-backed organizations that helped guarantee hut loans, making it easier for people to purchase huts. This contributed to an increase in demand for huts and a rise in housing prices, much like Fannie Mae and Freddie Mac did in the U.S. housing market."
+    },
+    {
+      "id":2,
+      "question": "How did the rise of speculative behavior affect the U.S. housing market?",
+      "Answer": "Speculative behavior in the U.S. housing market led to inflated home prices as buyers expected prices to continue rising. This created a bubble, where people bought homes not for living but as investments, anticipating future profits. When the market crashed, the bubble burst, leading to widespread foreclosures and financial losses."
+    },
+    {
+      "id":3,
+      "question": "What impact did subprime mortgages have on the housing market?",
+      "Answer": "Subprime mortgages were loans given to borrowers with poor credit histories. These loans were offered with low interest rates, encouraging more people to buy homes. However, when the housing market faltered, many of these borrowers defaulted, leading to a spike in foreclosures and a collapse of the housing market."
+    },
+    {
+      "id":4,
+      "question": "What role did tax incentives play in inflating the housing market in the U.S.?",
+      "Answer": "The mortgage interest deduction provided a tax break to homeowners, encouraging them to purchase homes even if they were financially overextended. This policy disproportionately benefited wealthier individuals and contributed to the housing bubble by incentivizing more borrowing."
+    },
+    {
+      "id":5,
+      "question": "How did mortgage-backed securities (MBS) contribute to the financial crisis?",
+      "Answer": "MBS were financial products that pooled mortgages, including subprime loans, and sold them to investors. As the housing market collapsed, the value of these securities plummeted, causing massive losses for financial institutions and contributing to the 2008 financial crisis."
+    },
+    {
+      "id":6,
+      "question": "What factors led to the bursting of the housing bubble in the U.S.?",
+      "Answer": "The bursting of the housing bubble was caused by a combination of factors, including over-speculation, risky lending practices (such as subprime mortgages), excessive borrowing fueled by tax incentives, and the eventual default of homeowners who could not afford their mortgages as housing prices stopped rising."
+    },
+    {
+      "id":7,
+      "question": "What happened when the housing bubble burst in 2008?",
+      "Answer": "When the housing bubble burst, home prices plummeted, and many homeowners defaulted on their mortgages. Financial institutions that had invested heavily in mortgage-backed securities faced huge losses, leading to the collapse of major banks and the onset of the Great Recession."
+    },
+    {
+      "id":8,
+      "question": "How did the U.S. government respond to the housing crisis?",
+      "Answer": "In response to the housing crisis, the U.S. government implemented massive bailouts for financial institutions, provided housing stimulus programs, and took steps to stabilize the housing market through regulatory changes and support for homeowners facing foreclosure."
+    },
+    {
+      "id":9,
+      "question": "What long-term effects did the housing crisis have on the global economy?",
+      "Answer": "The housing crisis contributed to a global economic recession, with widespread job losses, a credit freeze, and reduced economic activity. Countries around the world experienced a downturn, and recovery from the crisis took years, with significant changes to financial regulation."
+    },
+    {
+      "id":10,
+      "question": "How did the collapse of the housing market affect everyday Americans?",
+      "Answer": "The collapse of the housing market affected everyday Americans by causing many to lose their homes due to foreclosure. Additionally, unemployment rates increased, and the cost of living rose as the economy struggled to recover from the financial crisis."
+    }
+  ]
+  

@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Savings enable investment in _______.",
+      "answer": "innovation"
+    },
+    {
+      "id": 2,
+      "question": "Economic prosperity is built on the foundation of _______ and savings.",
+      "answer": "production"
+    },
+    {
+      "id": 3,
+      "question": "High savings rates help create a _______ against economic uncertainty.",
+      "answer": "safety net"
+    },
+    {
+      "id": 4,
+      "question": "Japan’s economic resilience after disasters is attributed to its _______ culture.",
+      "answer": "savings"
+    },
+    {
+      "id": 5,
+      "question": "The _______ boom of the 1950s was driven by high savings rates in the U.S.",
+      "answer": "post-WWII"
+    },
+    {
+      "id": 6,
+      "question": "Collaboration between _______ allows for greater economic outcomes.",
+      "answer": "industries"
+    },
+    {
+      "id": 7,
+      "question": "Excessive borrowing and lack of savings lead to _______ crises.",
+      "answer": "financial"
+    },
+    {
+      "id": 8,
+      "question": "_______ policies often lead to unsustainable debt and economic instability.",
+      "answer": "Consumption-based"
+    },
+    {
+      "id": 9,
+      "question": "The foundation of long-term economic growth is _______ over immediate spending.",
+      "answer": "production"
+    },
+    {
+      "id": 10,
+      "question": "Countries like Germany prioritize _______ to maintain sustained growth.",
+      "answer": "manufacturing"
+    }
+  ]
+  

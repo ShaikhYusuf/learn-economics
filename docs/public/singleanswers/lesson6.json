@@ -1,0 +1,52 @@
+[
+  {
+    "id":1,
+    "question": "What role did banks play in the early 19th century in the U.S.?",
+    "answer": "Banks were established to handle increasing savings, prevent fraud, and stabilize the financial system"
+  },
+  {
+    "id":2,
+    "question": "How did Max Goodbank address the storage and lending issues on the island?",
+    "answer": "He created a centralized institution that stored savings securely and lent money to others"
+  },
+  {
+    "id":3,
+    "question": "How do peer-to-peer lending platforms differ from traditional banks?",
+    "answer": "They allow individuals to lend money to others directly, without the intervention of banks"
+  },
+  {
+    "id":4,
+    "question": "How did low interest rates in the 2000s contribute to the housing boom?",
+    "answer": "Low interest rates made mortgages more affordable, leading to increased demand for housing"
+  },
+  {
+    "id":5,
+    "question": "What is the consequence of prolonged low interest rates, as seen in Japan?",
+    "answer": "It can lead to low inflation and limited economic growth, despite efforts to stimulate the economy"
+  },
+  {
+    "id":6,
+    "question": "How did Warren Buffett’s investment strategy help him avoid financial instability?",
+    "answer": "By focusing on stable, low-risk businesses, Buffett ensured consistent long-term growth"
+  },
+  {
+    "id":7,
+    "question": "What was the impact of reckless lending during the 2008 subprime mortgage crisis?",
+    "answer": "It contributed to the collapse of the housing market and caused widespread economic instability"
+  },
+  {
+    "id":8,
+    "question": "What is the purpose of the Federal Reserve in U.S. economic policy?",
+    "answer": "The Federal Reserve adjusts interest rates to regulate economic activity and maintain stability"
+  },
+  {
+    "id":9,
+    "question": "What happened when China controlled its credit markets?",
+    "answer": "It directed lending towards specific sectors, resulting in imbalanced economic growth"
+  },
+  {
+    "id":10,
+    "question": "How did the subprime mortgage crisis affect the U.S. economy?",
+    "answer": "It led to a major financial crisis, resulting in widespread job losses and economic downturn"
+  }
+]

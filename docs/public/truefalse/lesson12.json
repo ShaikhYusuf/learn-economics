@@ -1,0 +1,54 @@
+{
+  "TrueFalse": [
+    {
+      "id": 1,
+      "question": "The U.S. economy transitioned from a manufacturing-based economy to a service-based one in the 1980s.",
+      "answer": "True"
+    },
+    {
+      "id": 2,
+      "question": "India’s economy has remained primarily agricultural, with no shift to the service sector.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "The shift from manufacturing to services in Usonia mirrors similar economic trends seen in developed nations like the U.S. and the UK.",
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "Sinopia’s economic success was based on increased agricultural production, not manufacturing.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "The U.S. trade deficit is a result of its inability to produce enough goods to meet domestic demand.",
+      "answer": "False"
+    },
+    {
+      "id": 6,
+      "question": "Starbucks focuses on service and branding while outsourcing the production of coffee beans and other goods.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "question": "The global trade imbalance between developed and developing countries is a new phenomenon.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "The shift to service industries has led to a decline in high-value industries in countries like the U.S. and India.",
+      "answer": "False"
+    },
+    {
+      "id": 9,
+      "question": "The global recession of 2008 had no impact on China’s manufacturing sector.",
+      "answer": "False"
+    },
+    {
+      "id": 10,
+      "question": "Sinopia’s reliance on foreign reserves and exports is similar to the economic structure of countries like China.",
+      "answer": "True"
+    }
+  ]
+}

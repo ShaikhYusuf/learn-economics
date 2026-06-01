@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "What triggered the U.S. housing crisis in 2007-2008?",
+      "answer": "Excessive borrowing and risky subprime mortgages"
+    },
+    {
+      "id": 2,
+      "question": "What happened to property owners in the 'Hut Rut'?",
+      "answer": "They struggled to sell properties as prices declined"
+    },
+    {
+      "id": 3,
+      "question": "What was the U.S. government’s response to the financial crisis in 2008?",
+      "answer": "The government implemented a massive bailout program for financial institutions"
+    },
+    {
+      "id": 4,
+      "question": "What was the impact of government stimulus measures in 2008?",
+      "answer": "They provided temporary relief but didn’t solve the underlying economic issues"
+    },
+    {
+      "id": 5,
+      "question": "What does Chapter 15 highlight about government intervention?",
+      "answer": "It often leads to temporary fixes rather than addressing the root causes"
+    },
+    {
+      "id": 6,
+      "question": "How did the overextension of credit affect the housing market?",
+      "answer": "It inflated property values, leading to a market collapse"
+    },
+    {
+      "id": 7,
+      "question": "What was a consequence of using home equity as a financial tool during the housing boom?",
+      "answer": "Many consumers faced higher debt and reduced spending power after home prices fell"
+    },
+    {
+      "id": 8,
+      "question": "What economic period followed the Japanese asset price bubble in the 1990s?",
+      "answer": "The Lost Decade"
+    },
+    {
+      "id": 9,
+      "question": "How did speculative behavior impact the housing market during the crisis?",
+      "answer": "It led to inflated home prices and a subsequent crash"
+    },
+    {
+      "id": 10,
+      "question": "What lesson does Chapter 15 teach regarding artificial price maintenance?",
+      "answer": "Artificially maintaining asset prices can delay recovery and worsen economic challenges"
+    }
+  ]

@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "What happened during the collapse of the Fish Reserve Notes in Sinopia, and how does it relate to real-world economic crises?",
+      "Answer": "The collapse was due to the over-issuance of currency and poor fiscal management, similar to real-world hyperinflations like Germany's Weimar Republic in the 1920s, where currency printing to pay off debts caused extreme devaluation."
+    },
+    {
+      "id": 2,
+      "question": "What factors contributed to the hyperinflation in Zimbabwe in the 2000s?",
+      "Answer": "Zimbabwe faced hyperinflation as a result of poor economic policies, such as land reform, corruption, and mismanagement by the government, which printed vast amounts of money to cover fiscal deficits."
+    },
+    {
+      "id": 3,
+      "question": "How did Argentina handle its recurring inflation problems in the 1980s and 2000s?",
+      "Answer": "Argentina’s government tried to address hyperinflation by introducing new currency, devaluing its currency, and imposing price controls, but structural economic reforms were never fully implemented, leading to repeated inflation crises."
+    },
+    {
+      "id": 4,
+      "question": "What was the role of capital flight in Venezuela’s economic crisis in the 2010s?",
+      "Answer": "In Venezuela, capital flight occurred as wealthy citizens and foreign investors moved their wealth abroad to avoid the effects of inflation and currency devaluation caused by economic mismanagement under President Hugo Chávez and his successor Nicolás Maduro."
+    },
+    {
+      "id": 5,
+      "question": "Explain the economic situation in the U.S. during the 1970s and its consequences.",
+      "Answer": "The U.S. faced stagflation during the 1970s, where high inflation and slow economic growth combined with rising unemployment. The government’s attempts to control inflation through interest rate hikes and price controls exacerbated the situation."
+    },
+    {
+      "id": 6,
+      "question": "What caused the U.S. Great Depression in the 1930s, and what was the response?",
+      "Answer": "The Great Depression was triggered by the stock market crash and a banking crisis. The Federal Reserve’s delayed intervention deepened the crisis, but the New Deal programs eventually helped stabilize the economy."
+    },
+    {
+      "id": 7,
+      "question": "What were the key factors behind Japan’s post-WWII economic miracle?",
+      "Answer": "Japan’s economic recovery was driven by reforms, technological innovation, and a focus on productive industries like electronics and automobiles, which helped transform it into a global economic power."
+    },
+    {
+      "id": 8,
+      "question": "What were the consequences of Russia’s privatization process in the 1990s?",
+      "Answer": "The privatization process led to widespread corruption and asset stripping, where valuable state-owned enterprises were sold cheaply to a small group of oligarchs, leaving the country’s economy weakened for years."
+    },
+    {
+      "id": 9,
+      "question": "How did Argentina’s inflation in the 1980s affect its economy and society?",
+      "Answer": "Argentina’s inflation, reaching as high as 3,000% annually, led to severe economic instability, wiped out savings, and caused social unrest, with the government’s efforts to control inflation being largely unsuccessful."
+    },
+    {
+      "id": 10,
+      "question": "How did South Korea achieve economic development in the latter half of the 20th century?",
+      "Answer": "South Korea’s economic growth was driven by investments in education, infrastructure, and fostering industrial output, allowing it to transition from an agrarian economy to one of the world’s leading industrialized nations."
+    }
+  ]

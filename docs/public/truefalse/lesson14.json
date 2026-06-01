@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "question": "Fannie Mae and Freddie Mac helped to promote homeownership by purchasing mortgages from banks and guaranteeing loans.",
+      "answer": "True"
+    },
+    {
+      "id": 2,
+      "question": "The primary reason for the U.S. housing bubble was a lack of government intervention in the housing market.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "The rise of speculative behavior in housing was one of the key drivers behind the bursting of the housing bubble.",
+      "answer": "True"
+    },
+    {
+      "id": 4,
+      "question": "Subprime mortgages were given exclusively to borrowers with excellent credit histories.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "Tax incentives for homeowners had a significant role in inflating the housing market in the U.S.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "The housing bubble burst due to the lack of investment in mortgage-backed securities.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "The 2008 financial crisis was caused solely by the collapse of the stock market.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "Mortgage-backed securities and collateralized debt obligations (CDOs) contributed to the housing bubble by offering investors ways to profit from rising home prices.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "The U.S. government responded to the housing crisis by implementing massive bailouts and housing stimulus programs.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "The collapse of the U.S. housing market led to a global economic recovery.",
+      "answer": "False"
+    }
+  ]

@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "The island economy thrived initially due to heavy government regulation.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "Fish Reserve Notes were fully backed by real fish reserves.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "question": "Franky Deep’s policies focused on maintaining fiscal responsibility.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The reprocessed fish symbolized the government’s effort to improve public health.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "question": "The FDIC was created to protect public confidence in bank deposits.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "Max Goodbank supported the government’s monetary policies.",
+      "answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "The U.S. faced hyperinflation in the 1970s after leaving the gold standard.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "The chapter highlights the risks of unchecked government spending.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "The story reflects historical events such as Zimbabwe’s hyperinflation.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "The collapse of the island economy was caused by a lack of natural resources.",
+      "answer": "False"
+    }
+  ]
+  

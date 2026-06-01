@@ -1,0 +1,53 @@
+[
+    {
+      "id":1,
+      "question": "Explain the causes and impact of the U.S. housing crisis (2007-2008) as described in Chapter 15.",
+      "Answer": "The U.S. housing crisis was caused by excessive credit, risky subprime mortgages, and speculative investments. Banks offered loans to high-risk borrowers under the belief that home prices would keep rising. When the housing bubble burst, financial institutions faced massive losses, leading to widespread foreclosures, a stock market collapse, and increased unemployment."
+    },
+    {
+      "id":2,
+      "question": "What is the 'Hut Rut' and how does it reflect the real estate market during the crisis?",
+      "Answer": "The 'Hut Rut' refers to a situation where property owners rushed to sell their homes before prices fell further, reflecting the behavior of homeowners during the 2007-2008 housing crisis. Many investors, unable to sell at a profit, found themselves stuck with depreciating assets and underwater mortgages."
+    },
+    {
+      "id":3,
+      "question": "Describe the government's intervention during the financial crisis of 2008 and its consequences.",
+      "Answer": "The U.S. government intervened with a series of bailouts, most notably the Troubled Asset Relief Program (TARP), which allocated funds to struggling financial institutions. While it prevented an immediate collapse, it led to criticism for rewarding failing institutions and did not address the deeper systemic issues causing the crisis."
+    },
+    {
+      "id":4,
+      "question": "How did government stimulus measures in 2008 fail to address the root causes of the economic downturn?",
+      "Answer": "The Economic Stimulus Act of 2008 provided tax rebates and business incentives to stimulate the economy. However, these measures were temporary and did not resolve the underlying problems such as excessive debt, overleveraged institutions, and the bursting of the housing bubble."
+    },
+    {
+      "id":5,
+      "question": "What is the danger of maintaining unsustainable asset prices, as demonstrated by the Japanese asset price bubble?",
+      "Answer": "Attempts to maintain high asset prices, such as in the Japanese bubble of the 1980s, can lead to a collapse when the bubble bursts. This results in long-term stagnation and deflation, as seen during Japan’s 'Lost Decade,' and can exacerbate economic challenges instead of solving them."
+    },
+    {
+      "id":6,
+      "question": "What was the role of home equity loans during the housing boom, and what were the consequences?",
+      "Answer": "Homeowners used the rising value of their homes as a source of credit, taking out loans to finance consumption. When home prices plummeted, many homeowners were left with higher debt and less spending power, contributing to the overall economic downturn."
+    },
+    {
+      "id":7,
+      "question": "What is the impact of inflation and growing national debt as seen in Chapter 15?",
+      "Answer": "The government's response to the crisis, such as printing more money to finance bailouts, led to inflation. Similarly, growing national debt raised concerns about future debt servicing, with the risk of currency devaluation and reduced purchasing power for citizens."
+    },
+    {
+      "id":8,
+      "question": "How did speculation contribute to the collapse of the housing market?",
+      "Answer": "Speculation led investors to buy homes with the expectation that prices would continue to rise, fueling a housing bubble. When the bubble burst, many were left with properties worth less than their mortgages, leading to widespread defaults and foreclosures."
+    },
+    {
+      "id":9,
+      "question": "Explain the role of government bailouts in exacerbating the economic crisis.",
+      "Answer": "Government bailouts, such as those seen in 2008, were meant to prevent a complete collapse of the financial system but often led to a moral hazard, where failed institutions were rewarded. This created a false sense of security and delayed necessary market corrections."
+    },
+    {
+      "id":10,
+      "question": "What lesson does Chapter 15 teach about the dangers of excessive government intervention in the economy?",
+      "Answer": "Chapter 15 highlights that while government intervention may provide temporary relief, it cannot solve the deeper systemic issues within the economy. Continuing to inject money into an already unstable system only prolongs the inevitable correction and can lead to further economic challenges."
+    }
+  ]
+  
