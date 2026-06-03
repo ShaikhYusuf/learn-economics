@@ -1,14 +1,14 @@
 <div class="container">
-    <mat-card *ngFor="let eachQuestion of questions" class="question-card">
+  @for (eachQuestion of questions; track eachQuestion) {
+    <mat-card class="question-card">
       <p>
-        <ng-container *ngFor="let part of getParts(eachQuestion.question); let i = index">
+        @for (part of getParts(eachQuestion.question); track part; let i = $index) {
           <!-- Render non-blank parts (text) -->
-          <ng-container *ngIf="!part.includes('_')">
+          @if (!part.includes('_')) {
             <span>{{ part }}</span>
-          </ng-container>
-  
+          }
           <!-- Render input fields for blanks (underscores) -->
-          <ng-container *ngIf="part.includes('_')">
+          @if (part.includes('_')) {
             <input
               type="text"
               [(ngModel)]="selectedAnswer[eachQuestion.id]"
@@ -20,12 +20,12 @@
                 'empty': answerStatus[eachQuestion.id] === 'empty'
               }"
               class="input-field"
-            />
-          </ng-container>
-        </ng-container>
+              />
+          }
+        }
       </p>
     </mat-card>
-  
-    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
-  </div>
-  
+  }
+
+  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+</div>

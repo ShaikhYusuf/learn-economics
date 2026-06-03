@@ -1,21 +1,23 @@
 <div class="quiz-container">
-    <h2>Lesson {{ lessonId }} Quiz</h2>
-  
-    <div *ngFor="let quiz of quizzes" class="quiz-item">
+  <h2>Lesson {{ lessonId }} Quiz</h2>
+
+  @for (quiz of quizzes; track quiz) {
+    <div class="quiz-item">
       <p><strong>{{ quiz.id }}. {{ quiz.question }}</strong></p>
       <ul>
-        <li
-          *ngFor="let option of quiz.options; let i = index"
-          [ngClass]="getClass(quiz.id, i)"
-          (click)="selectOption(quiz.id, i)"
-        >
-          {{ option }}
-        </li>
+        @for (option of quiz.options; track option; let i = $index) {
+          <li
+            [ngClass]="getClass(quiz.id, i)"
+            (click)="selectOption(quiz.id, i)"
+            >
+            {{ option }}
+          </li>
+        }
       </ul>
     </div>
-  
-    <button (click)="submitAnswers()" [disabled]="submitted">
-      Submit Answers
-    </button>
-  </div>
-  
+  }
+
+  <button (click)="submitAnswers()" [disabled]="submitted">
+    Submit Answers
+  </button>
+</div>

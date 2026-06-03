@@ -5,19 +5,23 @@
       Explanation
       <i class="material-icons">arrow_drop_down</i>
     </button>
-    <div *ngIf="isExplanationMenuActive" class="dropdown-menu">
-      <a *ngFor="let item of menuItems; let i = index" (click)="selectMenuItem(i, item.url)" class="dropdown-item">
-        {{ item.name }}
-      </a>
-    </div>
+    @if (isExplanationMenuActive) {
+      <div class="dropdown-menu">
+        @for (item of menuItems; track item; let i = $index) {
+          <a (click)="selectMenuItem(i, item.url)" class="dropdown-item">
+            {{ item.name }}
+          </a>
+        }
+      </div>
+    }
   </div>
-    
-    <!-- Other Buttons -->
-    <button mat-button [routerLink]="'/quiz/' + selectedLessonId">Quiz</button>
-    <button mat-button [routerLink]="['/clozeTests', selectedLessonId]">Cloze Tests</button>
-    <button mat-button [routerLink]="['/trueFalse', selectedLessonId]">True And False</button>
-    <button mat-button [routerLink]="['/singleLine', selectedLessonId]">Single Questions Answers</button>
-    <button mat-button [routerLink]="['/comprehernsive', selectedLessonId]">Comprehernsive Questions Answers</button>
-  </div>
+
+  <!-- Other Buttons -->
+  <button mat-button [routerLink]="'/quiz/' + selectedLessonId">Quiz</button>
+  <button mat-button [routerLink]="['/clozeTests', selectedLessonId]">Cloze Tests</button>
+  <button mat-button [routerLink]="['/trueFalse', selectedLessonId]">True And False</button>
+  <button mat-button [routerLink]="['/singleLine', selectedLessonId]">Single Questions Answers</button>
+  <button mat-button [routerLink]="['/comprehernsive', selectedLessonId]">Comprehernsive Questions Answers</button>
+</div>
 
 <router-outlet></router-outlet>

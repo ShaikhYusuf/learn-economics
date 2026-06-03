@@ -1,8 +1,8 @@
 <div class="container">
-    <mat-card *ngFor="let eachQuestion of questions" class="question-card">
+  @for (eachQuestion of questions; track eachQuestion) {
+    <mat-card class="question-card">
       <div class="red-con">
         <div>{{ eachQuestion.question }}</div>
-  
         <!-- Render textarea for comprehensive answers -->
         <textarea
           [(ngModel)]="selectedAnswer[eachQuestion.id]"
@@ -16,7 +16,7 @@
         ></textarea>
       </div>
     </mat-card>
-  
-    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
-  </div>
-  
+  }
+
+  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+</div>

@@ -1,4 +1,4 @@
-import { CommonModule, NgFor, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
@@ -9,7 +9,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 @Component({
   selector: 'app-true-false',
   standalone: true,
-  imports: [CommonModule, MatCardModule, NgIf, NgFor, FormsModule, MatButtonToggleModule],
+  imports: [CommonModule, MatCardModule, FormsModule, MatButtonToggleModule],
   templateUrl: './true-false.component.html',
   styleUrls: ['./true-false.component.css'],
 })

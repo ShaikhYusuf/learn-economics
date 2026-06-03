@@ -1,4 +1,4 @@
-import { CommonModule, NgFor, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
@@ -8,7 +8,7 @@ import { FormsModule } from '@angular/forms';
 @Component({
   selector: 'app-cloze-test',
   standalone: true,
-  imports: [CommonModule, MatCardModule, NgIf, NgFor, FormsModule],
+  imports: [CommonModule, MatCardModule, FormsModule],
   templateUrl: './cloze-test.component.html',
   styleUrls: ['./cloze-test.component.css'], // Fixed typo in `styleUrls`
 })

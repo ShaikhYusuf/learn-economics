@@ -1,22 +1,23 @@
 <div class="container">
-  <mat-card *ngFor="let eachQuestion of questions" class="question-card">
-    <div>
-      <div>{{ eachQuestion.question }}</div>
-
-      <!-- Render input fields for answers -->
-      <input
-        type="text"
-        [(ngModel)]="selectedAnswer[eachQuestion.id]"
-        placeholder="Type your answer"
-        class="input-field"
+  @for (eachQuestion of questions; track eachQuestion) {
+    <mat-card class="question-card">
+      <div>
+        <div>{{ eachQuestion.question }}</div>
+        <!-- Render input fields for answers -->
+        <input
+          type="text"
+          [(ngModel)]="selectedAnswer[eachQuestion.id]"
+          placeholder="Type your answer"
+          class="input-field"
         [ngClass]="{
           'correct': answerStatus[eachQuestion.id] === 'correct',
           'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
           'empty': answerStatus[eachQuestion.id] === 'empty'
         }"
-      />
-    </div>
-  </mat-card>
+          />
+      </div>
+    </mat-card>
+  }
 
   <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
 </div>
