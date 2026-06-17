@@ -1,31 +1,49 @@
-<div class="container">
-  @for (eachQuestion of questions; track eachQuestion) {
-    <mat-card class="question-card">
-      <p>
-        @for (part of getParts(eachQuestion.question); track part; let i = $index) {
-          <!-- Render non-blank parts (text) -->
+<div class="cloze-wrapper">
+  @for (eachQuestion of questions; track eachQuestion; let qIdx = $index) {
+    <div class="card cloze-card">
+      <div class="cloze-card-header">
+        <span class="question-number">Question {{ qIdx + 1 }}</span>
+      </div>
+      
+      <p class="question-sentence">
+        @for (part of getParts(eachQuestion.question); track part) {
           @if (!part.includes('_')) {
-            <span>{{ part }}</span>
+            <span class="text-part">{{ part }}</span>
           }
-          <!-- Render input fields for blanks (underscores) -->
           @if (part.includes('_')) {
-            <input
-              type="text"
-              [(ngModel)]="selectedAnswer[eachQuestion.id]"
-              [style.width]="(eachQuestion.answer?.length * 1.5) + 'ch'"
-              placeholder="Fill in the blank"
-              [ngClass]="{
-                'correct': answerStatus[eachQuestion.id] === 'correct',
-                'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
-                'empty': answerStatus[eachQuestion.id] === 'empty'
-              }"
-              class="input-field"
-              />
+            <span class="input-container">
+              <input
+                type="text"
+                [(ngModel)]="selectedAnswer[eachQuestion.id]"
+                [style.width]="(eachQuestion.answer?.length * 1.2 + 2) + 'ch'"
+                placeholder="fill in"
+                [ngClass]="{
+                  'correct': answerStatus[eachQuestion.id] === 'correct',
+                  'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
+                  'empty': answerStatus[eachQuestion.id] === 'empty'
+                }"
+                class="input-field"
+                />
+            </span>
           }
         }
       </p>
-    </mat-card>
+      
+      <div class="answer-feedback" *ngIf="answerStatus[eachQuestion.id] === 'incorrect'">
+        <mat-icon class="feedback-icon error-icon">cancel</mat-icon>
+        <span class="feedback-text">Correct answer: <strong>{{ eachQuestion.answer }}</strong></span>
+      </div>
+      <div class="answer-feedback" *ngIf="answerStatus[eachQuestion.id] === 'correct'">
+        <mat-icon class="feedback-icon success-icon">check_circle</mat-icon>
+        <span class="feedback-text">Well done!</span>
+      </div>
+    </div>
   }
 
-  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  <div class="cloze-actions" *ngIf="questions.length > 0">
+    <button class="btn btn-primary submit-btn" (click)="onSubmit()">
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Submit Answers</span>
+    </button>
+  </div>
 </div>

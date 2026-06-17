@@ -1,43 +1,40 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MatListModule } from '@angular/material/list';
-import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { HttpClient } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-quiz',
   standalone: true,
-  imports: [CommonModule, MatListModule],
+  imports: [CommonModule, MatIconModule],
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.css']
 })
-export class QuizComponent {
+export class QuizComponent implements OnInit {
   quizzes: any[] = [];
   selectedAnswers: { [key: number]: number } = {};
   submitted = false;
   lessonId!: number;
 
-  constructor(private http: HttpClient,
-    private activatedRoute: ActivatedRoute
-  ) { 
-     const lessonId = this.activatedRoute.snapshot.paramMap.get('lessonId') ?? "1";
-     this.lessonId = +lessonId;
-  }
+  constructor(private http: HttpClient, private route: ActivatedRoute) { }
 
-  ngOnInit() {
-    this.loadQuizzes(this.lessonId);
+  ngOnInit(): void {
+    this.route.params.subscribe(params => {
+      this.lessonId = +params['lessonId'];
+      this.loadQuizzes(this.lessonId);
+    });
   }
 
   loadQuizzes(lessonId: number): void {
-    const url = `public/quiz/lesson${lessonId}.json`; // Adjusted path
+    const url = `./public/quiz/lesson${lessonId}.json`;
     this.http.get<any[]>(url).subscribe({
       next: (data) => {
-        console.log(`Loaded quizzes for lesson ${lessonId}:`, data);
         this.quizzes = data;
       },
       error: (error) => {
         console.error('Error loading quiz data:', error);
-      },
+      }
     });
   }
 
@@ -55,23 +52,10 @@ export class QuizComponent {
     this.submitted = true;
   }
 
-  getClass(quizId: number, optionIndex: number): string {
-    if (!this.submitted) {
-      return this.selectedAnswers[quizId] === optionIndex ? 'highlight' : '';
-    }
-
-    const quiz = this.quizzes.find((quiz) => quiz.id === quizId);
-    if (!quiz) return '';
-
-    const isCorrect = quiz.answer === optionIndex;
-    const isSelected = this.selectedAnswers[quizId] === optionIndex;
-
-    if (isCorrect) {
-      return 'correct';
-    } else if (isSelected) {
-      return 'incorrect';
-    } else {
-      return '';
-    }
+  isCorrectOption(quiz: any, optionIndex: number): boolean {
+    if (!quiz) return false;
+    const correctLetter = quiz.Answer || quiz.answer;
+    const letter = ['A', 'B', 'C', 'D', 'E', 'F'][optionIndex - 1];
+    return correctLetter === letter;
   }
 }

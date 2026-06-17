@@ -1,23 +1,38 @@
-<div class="quiz-container">
-  <h2>Lesson {{ lessonId }} Quiz</h2>
-
-  @for (quiz of quizzes; track quiz) {
-    <div class="quiz-item">
-      <p><strong>{{ quiz.id }}. {{ quiz.question }}</strong></p>
-      <ul>
+<div class="quiz-wrapper">
+  @for (quiz of quizzes; track quiz; let qIdx = $index) {
+    <div class="card quiz-card">
+      <div class="quiz-card-header">
+        <span class="question-number">Question {{ qIdx + 1 }}</span>
+      </div>
+      <h2 class="question-text">{{ quiz.question }}</h2>
+      
+      <div class="options-list">
         @for (option of quiz.options; track option; let i = $index) {
-          <li
-            [ngClass]="getClass(quiz.id, i)"
-            (click)="selectOption(quiz.id, i)"
-            >
-            {{ option }}
-          </li>
+          <button class="option-btn"
+                  [class.highlight]="!submitted && selectedAnswers[quiz.id] === (i + 1)"
+                  [class.correct-option]="submitted && isCorrectOption(quiz, i + 1)"
+                  [class.incorrect-option]="submitted && selectedAnswers[quiz.id] === (i + 1) && !isCorrectOption(quiz, i + 1)"
+                  [disabled]="submitted"
+                  (click)="selectOption(quiz.id, i + 1)">
+            <span class="option-letter">{{ ['A','B','C','D','E','F'][i] }}</span>
+            <span class="option-text">{{ option }}</span>
+            
+            <span class="option-status-icon" *ngIf="submitted && isCorrectOption(quiz, i + 1)">
+              <mat-icon>check_circle</mat-icon>
+            </span>
+            <span class="option-status-icon" *ngIf="submitted && selectedAnswers[quiz.id] === (i + 1) && !isCorrectOption(quiz, i + 1)">
+              <mat-icon>cancel</mat-icon>
+            </span>
+          </button>
         }
-      </ul>
+      </div>
     </div>
   }
 
-  <button (click)="submitAnswers()" [disabled]="submitted">
-    Submit Answers
-  </button>
+  <div class="quiz-actions" *ngIf="quizzes.length > 0">
+    <button class="btn btn-primary submit-btn" (click)="submitAnswers()" [disabled]="submitted">
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Submit Answers</span>
+    </button>
+  </div>
 </div>

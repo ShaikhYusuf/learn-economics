@@ -1,22 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
-import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-single-line',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatCardModule],
+  imports: [CommonModule, FormsModule, MatIconModule],
   templateUrl: './single-line.component.html',
   styleUrls: ['./single-line.component.css'],
 })
-export class SingleLineAnswerComponent {
+export class SingleLineAnswerComponent implements OnInit {
   questions: any[] = [];
   selectedAnswer: { [key: number]: string } = {};
-  answerStatus: { [key: number]: string } = {}; // Track status of answers
+  answerStatus: { [key: number]: string } = {};
   lessonId: number | null = null;
+  submitted = false;
 
   constructor(private http: HttpClient, private route: ActivatedRoute) {}
 
@@ -24,22 +25,20 @@ export class SingleLineAnswerComponent {
     this.route.paramMap.subscribe((params) => {
       const lessonIdParam = params.get('lessonId');
       if (lessonIdParam) {
-        this.lessonId = +lessonIdParam; // Convert to number
-        this.loadQuestions(this.lessonId); // Load the questions
+        this.lessonId = +lessonIdParam;
+        this.loadQuestions(this.lessonId);
       }
     });
   }
 
   loadQuestions(lessonId: number): void {
-
-    const url = `public/singleanswers/lesson${lessonId}.json`;
+    const url = `./public/singleanswers/lesson${lessonId}.json`;
     this.http.get<any[]>(url).subscribe({
       next: (data) => {
         this.questions = data;
       },
       error: (error) => {
         console.error('Error loading single line test data:', error);
-        alert('Failed to load data');
       },
     });
   }
@@ -55,5 +54,6 @@ export class SingleLineAnswerComponent {
         this.answerStatus[question.id] = 'incorrect';
       }
     });
+    this.submitted = true;
   }
 }

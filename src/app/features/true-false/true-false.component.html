@@ -1,41 +1,63 @@
-<div class="container">
-  <!-- Loop over True/False questions -->
-  @for (eachQuestion of questions; track eachQuestion) {
-    <mat-card class="question-card">
-      <p>
-        <span>{{ eachQuestion.question }}</span>
-        <!-- True/False Selection -->
-        <mat-button-toggle-group [(ngModel)]="selectedAnswer[eachQuestion.id]" aria-label="Select your answer">
-          <mat-button-toggle value="true">True</mat-button-toggle>
-          <mat-button-toggle value="false">False</mat-button-toggle>
-        </mat-button-toggle-group>
-      </p>
-      <!-- Show answer status (correct, incorrect, empty) -->
-      @if (answerStatus[eachQuestion.id]) {
-<div [ngClass]="{
-        'correct': answerStatus[eachQuestion.id] === 'correct',
-        'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
-        'empty': answerStatus[eachQuestion.id] === 'empty'
-      }">
-          @if (answerStatus[eachQuestion.id] === 'correct') {
-            <span>Correct</span>
-          }
-          @if (answerStatus[eachQuestion.id] === 'incorrect') {
-            <span>Incorrect</span>
-          }
-          @if (answerStatus[eachQuestion.id] === 'empty') {
-            <span>Please answer this question!</span>
-          }
-        </div>
-      }
-    </mat-card>
+<div class="tf-wrapper">
+  @for (eachQuestion of questions; track eachQuestion; let qIdx = $index) {
+    <div class="card tf-card">
+      <div class="tf-card-header">
+        <span class="question-number">Question {{ qIdx + 1 }}</span>
+      </div>
+      <h2 class="question-text">{{ eachQuestion.question }}</h2>
+      
+      <div class="tf-options">
+        <button class="option-btn"
+                [class.highlight]="!submitted && selectedAnswer[eachQuestion.id] === 'true'"
+                [class.correct-option]="submitted && eachQuestion.answer.toLowerCase() === 'true'"
+                [class.incorrect-option]="submitted && selectedAnswer[eachQuestion.id] === 'true' && eachQuestion.answer.toLowerCase() !== 'true'"
+                [disabled]="submitted"
+                (click)="selectOption(eachQuestion.id, 'true')">
+          <span class="option-letter">T</span>
+          <span class="option-text">True</span>
+          
+          <span class="option-status-icon" *ngIf="submitted && eachQuestion.answer.toLowerCase() === 'true'">
+            <mat-icon>check_circle</mat-icon>
+          </span>
+          <span class="option-status-icon" *ngIf="submitted && selectedAnswer[eachQuestion.id] === 'true' && eachQuestion.answer.toLowerCase() !== 'true'">
+            <mat-icon>cancel</mat-icon>
+          </span>
+        </button>
+
+        <button class="option-btn"
+                [class.highlight]="!submitted && selectedAnswer[eachQuestion.id] === 'false'"
+                [class.correct-option]="submitted && eachQuestion.answer.toLowerCase() === 'false'"
+                [class.incorrect-option]="submitted && selectedAnswer[eachQuestion.id] === 'false' && eachQuestion.answer.toLowerCase() !== 'false'"
+                [disabled]="submitted"
+                (click)="selectOption(eachQuestion.id, 'false')">
+          <span class="option-letter">F</span>
+          <span class="option-text">False</span>
+          
+          <span class="option-status-icon" *ngIf="submitted && eachQuestion.answer.toLowerCase() === 'false'">
+            <mat-icon>check_circle</mat-icon>
+          </span>
+          <span class="option-status-icon" *ngIf="submitted && selectedAnswer[eachQuestion.id] === 'false' && eachQuestion.answer.toLowerCase() !== 'false'">
+            <mat-icon>cancel</mat-icon>
+          </span>
+        </button>
+      </div>
+
+      <div class="answer-feedback" *ngIf="submitted && answerStatus[eachQuestion.id] === 'incorrect'">
+        <mat-icon class="feedback-icon error-icon">cancel</mat-icon>
+        <span class="feedback-text">Incorrect. The statement is <strong>{{ eachQuestion.answer | titlecase }}</strong>.</span>
+      </div>
+      <div class="answer-feedback" *ngIf="submitted && answerStatus[eachQuestion.id] === 'correct'">
+        <mat-icon class="feedback-icon success-icon">check_circle</mat-icon>
+        <span class="feedback-text">Correct!</span>
+      </div>
+    </div>
   }
 
-  <!-- Display general message if any answer is empty -->
-  @if (message) {
-    <div class="popup-message">{{ message }}</div>
-  }
-
-  <!-- Submit button -->
-  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  <div class="tf-actions" *ngIf="questions.length > 0">
+    <div class="popup-message" *ngIf="message">{{ message }}</div>
+    <button class="btn btn-primary submit-btn" (click)="onSubmit()" [disabled]="submitted">
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Submit Answers</span>
+    </button>
+  </div>
 </div>

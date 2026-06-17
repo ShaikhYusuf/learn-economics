@@ -1,101 +1,125 @@
-/* General container styles */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  /* Mat-card styling */
-  .question-card {
-    width: 80%;
-    max-width: 600px;
-    margin: 15px 0;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-/* For correct answers */
-input.correct {
-    background-color: #4caf50; /* Green for correct */
-    color: white;
-    font-size: 1.2em; /* Larger font size */
-    padding: 10px; /* Padding for better visual effect */
-    border-radius: 4px; /* Rounded corners */
-    border: 2px solid #4caf50; /* Green border for correct */
-    width: 100%; /* Make it fill the available width */
-    box-sizing: border-box; /* Ensures padding is included in width */
-  }
-  
-  /* For incorrect answers */
-  input.incorrect {
-    background-color: #f44336; /* Red for incorrect */
-    color: white;
-    font-size: 1.2em; /* Larger font size */
-    padding: 10px; /* Padding for better visual effect */
-    border-radius: 4px; /* Rounded corners */
-    border: 2px solid #f44336; /* Red border for incorrect */
-    width: 100%; /* Make it fill the available width */
-    box-sizing: border-box; /* Ensures padding is included in width */
-  }
-  
-  /* For empty answers */
-  input.empty {
-    background-color: #f0f0f0; /* Light grey for empty */
-    color: #333; /* Darker text color for readability */
-    font-size: 1.2em; /* Larger font size */
-    padding: 10px; /* Padding for better visual effect */
-    border-radius: 4px; /* Rounded corners */
-    border: 2px solid #ccc; /* Light grey border for empty */
-    width: 100%; /* Make it fill the available width */
-    box-sizing: border-box; /* Ensures padding is included in width */
-  }
-  
-  /* Input fields inside mat-card */
-  .input-field {
-    display: inline-block;
-    margin-top: 5px;
-    width: auto; /* Let the input adjust to the text */
-    min-width: 100px; /* Set minimum width for consistency */
-  }
-  
-  /* Optional: Increase the size of the input container for better spacing */
-  mat-card {
-    margin-bottom: 20px; /* Space between questions */
-    padding: 15px;
-  }
-  
-  
-  
-  
- 
-  
-  
-  
-  /* Submit button styles */
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #303f9f;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .question-card {
-      width: 90%;
-    }
-  }
-  
+.cloze-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.cloze-card {
+  padding: 2.5rem;
+}
+
+.cloze-card-header {
+  margin-bottom: 0.75rem;
+}
+
+.question-number {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+}
+
+.question-sentence {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.text-part {
+  vertical-align: middle;
+}
+
+.input-container {
+  display: inline-block;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
+
+.input-field {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  text-align: center;
+  transition: all var(--transition-speed) ease;
+  box-shadow: var(--shadow-inset);
+}
+
+.input-field:focus {
+  border-color: var(--color-accent);
+  background-color: var(--color-white);
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
+}
+
+.input-field.correct {
+  background-color: rgba(46, 204, 113, 0.1) !important;
+  border-color: var(--color-success, #2ecc71) !important;
+  color: #155724 !important;
+  box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.15) !important;
+}
+
+.input-field.incorrect {
+  background-color: rgba(231, 76, 60, 0.1) !important;
+  border-color: var(--color-error, #e74c3c) !important;
+  color: #721c24 !important;
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.15) !important;
+}
+
+.input-field.empty {
+  border-color: #f39c12 !important;
+  background-color: rgba(243, 156, 18, 0.05) !important;
+  box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.15) !important;
+}
+
+.answer-feedback {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.feedback-icon {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.error-icon {
+  color: var(--color-error, #e74c3c);
+}
+
+.success-icon {
+  color: var(--color-success, #2ecc71);
+}
+
+.feedback-text {
+  color: var(--color-secondary);
+}
+
+.feedback-text strong {
+  color: var(--color-text);
+}
+
+.cloze-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-btn {
+  padding: 0.9rem 2.5rem;
+}

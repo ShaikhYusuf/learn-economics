@@ -1,22 +1,40 @@
-<div class="container">
-  @for (eachQuestion of questions; track eachQuestion) {
-    <mat-card class="question-card">
-      <div class="red-con">
-        <div>{{ eachQuestion.question }}</div>
-        <!-- Render textarea for comprehensive answers -->
+<div class="comp-wrapper">
+  @for (eachQuestion of questions; track eachQuestion; let qIdx = $index) {
+    <div class="card comp-card">
+      <div class="comp-card-header">
+        <span class="question-number">Question {{ qIdx + 1 }}</span>
+      </div>
+      <h2 class="question-text">{{ eachQuestion.question }}</h2>
+      
+      <div class="input-container">
         <textarea
           [(ngModel)]="selectedAnswer[eachQuestion.id]"
-          placeholder="Type your comprehensive answer"
-          class="input-field"
+          [disabled]="submitted"
+          placeholder="Type your comprehensive answer here..."
+          class="input-field input textarea"
           [ngClass]="{
-            'correct': answerStatus[eachQuestion.id] === 'correct',
-            'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
-            'empty': answerStatus[eachQuestion.id] === 'empty'
+            'correct': submitted && answerStatus[eachQuestion.id] === 'correct',
+            'incorrect': submitted && answerStatus[eachQuestion.id] === 'incorrect',
+            'empty': submitted && answerStatus[eachQuestion.id] === 'empty'
           }"
         ></textarea>
       </div>
-    </mat-card>
+
+      <div class="answer-feedback" *ngIf="submitted && answerStatus[eachQuestion.id] === 'incorrect'">
+        <mat-icon class="feedback-icon error-icon">cancel</mat-icon>
+        <span class="feedback-text">Expected: <strong>{{ eachQuestion.Answer || eachQuestion.answer }}</strong></span>
+      </div>
+      <div class="answer-feedback" *ngIf="submitted && answerStatus[eachQuestion.id] === 'correct'">
+        <mat-icon class="feedback-icon success-icon">check_circle</mat-icon>
+        <span class="feedback-text">Correct!</span>
+      </div>
+    </div>
   }
 
-  <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  <div class="comp-actions" *ngIf="questions.length > 0">
+    <button class="btn btn-primary submit-btn" (click)="onSubmit()" [disabled]="submitted">
+      <mat-icon>cloud_upload</mat-icon>
+      <span>Submit Answers</span>
+    </button>
+  </div>
 </div>
