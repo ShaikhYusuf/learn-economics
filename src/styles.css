@@ -467,3 +467,122 @@ code {
   font-weight: 600;
 }
 
+/* ── Lesson Navigation Footer ─────────────────────────────────── */
+.lesson-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  gap: 1rem;
+  width: 100%;
+}
+
+.lesson-indicator {
+  font-weight: 600;
+  color: var(--color-secondary);
+  font-size: 0.95rem;
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Hide TTS ─────────────────────────────────────────────────── */
+.speech-button-container,
+app-audio-reader {
+  display: none !important;
+}
+
+/* ── Responsive: 992px (Tablet / Overlay sidebar) ─────────────── */
+@media (max-width: 992px) {
+  .sidebar-backdrop {
+    display: block;
+  }
+
+  .sidebar-toggle {
+    display: flex;
+  }
+
+  .app-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--sidebar-width) !important;
+    min-width: var(--sidebar-width) !important;
+    transform: translateX(-100%);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .app-sidebar.sidebar-open {
+    transform: translateX(0);
+  }
+
+  .app-sidebar.sidebar-collapsed {
+    transform: translateX(-100%);
+  }
+
+  .app-content {
+    padding: 1.5rem;
+  }
+
+  .app-header {
+    padding: 0 1rem;
+  }
+}
+
+/* ── Responsive: 576px (Mobile) ───────────────────────────────── */
+@media (max-width: 576px) {
+  .user-greeting {
+    display: none;
+  }
+
+  .app-title {
+    font-size: 1rem;
+  }
+
+  .app-header {
+    padding: 0 0.75rem;
+  }
+
+  .app-content {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+  .lesson-navigation {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: stretch;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  .lesson-navigation .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .lesson-indicator {
+    order: -1;
+  }
+
+  .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
+  .header-actions button span {
+    display: none;
+  }
+
+  .header-actions button {
+    padding: 0.5rem !important;
+  }
+}
+
