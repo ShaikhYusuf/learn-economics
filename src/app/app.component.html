@@ -1,27 +1,67 @@
-<div class="container">
-  <!-- Explanation Button with Dropdown -->
-  <div class="dropdown-container">
-    <button mat-button (click)="toggleExplanationMenu()">
-      Explanation
-      <i class="material-icons">arrow_drop_down</i>
-    </button>
-    @if (isExplanationMenuActive) {
-      <div class="dropdown-menu">
-        @for (item of menuItems; track item; let i = $index) {
-          <a (click)="selectMenuItem(i, item.url)" class="dropdown-item">
-            {{ item.name }}
-          </a>
-        }
+<div class="app-layout">
+  <!-- Sticky Header -->
+  <header class="app-header">
+    <div class="app-brand">
+      <button class="sidebar-toggle" (click)="toggleSidebar()" aria-label="Toggle Navigation">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="app-title">{{ siteTitle }}</span>
+    </div>
+    <div class="header-actions">
+      <button mat-button (click)="navigate('/intro')">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <!-- Sidebar Backdrop for mobile -->
+    <div class="sidebar-backdrop" *ngIf="isSidebarActive" (click)="toggleSidebar()"></div>
+
+    <!-- Sidebar Navigation -->
+    <aside class="app-sidebar" [class.sidebar-open]="isSidebarActive">
+      <nav class="sidebar-menu">
+        <div class="menu-item" *ngFor="let item of menuItems">
+          <div class="menu-link-wrapper" [class.active]="selectedLessonId === item.id">
+            <a (click)="selectLesson(item.id, item.url)" class="menu-link">
+              <mat-icon>{{ item.id === 'intro' ? 'info' : 'bookmark' }}</mat-icon>
+              <span>{{ item.name }}</span>
+            </a>
+            
+            <!-- Submenu for Quizzes & Other tests if the lesson is active -->
+            <div class="lesson-submenus" *ngIf="item.hasAssessments && selectedLessonId === item.id">
+              <a (click)="navigate('/quiz/' + item.id)" class="submenu-link">
+                <mat-icon>quiz</mat-icon>
+                <span>Quiz</span>
+              </a>
+              <a (click)="navigate('/clozeTests/' + item.id)" class="submenu-link">
+                <mat-icon>edit_note</mat-icon>
+                <span>Cloze Test</span>
+              </a>
+              <a (click)="navigate('/trueFalse/' + item.id)" class="submenu-link">
+                <mat-icon>rule</mat-icon>
+                <span>True or False</span>
+              </a>
+              <a (click)="navigate('/singleLine/' + item.id)" class="submenu-link">
+                <mat-icon>short_text</mat-icon>
+                <span>Single Line</span>
+              </a>
+              <a (click)="navigate('/comprehernsive/' + item.id)" class="submenu-link">
+                <mat-icon>assignment</mat-icon>
+                <span>Comprehensive</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-content">
+      <div class="content-container">
+        <router-outlet></router-outlet>
       </div>
-    }
+    </main>
   </div>
-
-  <!-- Other Buttons -->
-  <button mat-button [routerLink]="'/quiz/' + selectedLessonId">Quiz</button>
-  <button mat-button [routerLink]="['/clozeTests', selectedLessonId]">Cloze Tests</button>
-  <button mat-button [routerLink]="['/trueFalse', selectedLessonId]">True And False</button>
-  <button mat-button [routerLink]="['/singleLine', selectedLessonId]">Single Questions Answers</button>
-  <button mat-button [routerLink]="['/comprehernsive', selectedLessonId]">Comprehernsive Questions Answers</button>
 </div>
-
-<router-outlet></router-outlet>
